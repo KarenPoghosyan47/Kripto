@@ -1,0 +1,491 @@
+body {
+  background: linear-gradient(213.01deg, #111111 -35.1%, rgba(17, 17, 17, 0.83) 100%);
+}
+
+.divv {
+  display: flex;
+}
+
+body h1 {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+body .kripta-cont {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+body .kripta-cont .div1 {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.04);
+  flex-shrink: 0;
+  border-radius: 24px;
+  /* margin-left: 10em; */
+  width: 388px;
+}
+
+body .kripta-cont .div1 .active {
+  background-color: #F6CF46 !important;
+  border: 0px !important;
+  color: black !important;
+}
+
+body .kripta-cont .div1 .active svg {
+  filter: brightness(100%) invert(1) !important;
+}
+
+body .kripta-cont .div1 h4 {
+  padding: 20px 20px 12px 20px;
+  margin-right: 10px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+body .kripta-cont .div1 .btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+body .kripta-cont .div1 .btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 60px;
+  width: 100%;
+  border: 1px solid var(--white, #FFF);
+  background-color: transparent;
+}
+
+body .kripta-cont .div1 .btn1:hover {
+  border: 1px solid var(--white, #F6CF46);
+  /* background-color: #F6CF46; */
+  /* border: 0px; */
+  color: #F6CF46;
+}
+
+body .kripta-cont .div1 .btn1:hover svg {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(41%) saturate(3969%) hue-rotate(323deg) brightness(101%) contrast(93%);
+}
+
+body .kripta-cont .div1 .btn1 .icons {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+body .kripta-cont .div1 .btn-slect {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 25em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* margin-bottom: 10px; */
+  padding: 10px 16px;
+  border-radius: 60px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.btn-slect::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: " " !important;
+  width: 20px;
+  height: 20px;
+  background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 6.00006L8 11.0001L13 6.00006" stroke="%23FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  background-repeat: no-repeat;
+}
+
+.span1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ul {
+  width: 22em;
+  background-color: #242424 !important;
+  border-radius: 22px;
+  overflow: scroll;
+  height: 250px;
+  scrollbar-color: #F6CF46 #242424;
+  scrollbar-width: thin;
+
+
+
+}
+
+
+.dropdown-item {
+  color: white !important;
+  margin-bottom: 10px;
+
+}
+
+.dropdown-item:hover {
+  color: var(--bs-dropdown-link-hover-color) !important;
+  /* background-color: var(--bs-dropdown-link-hover-bg); */
+  background-color: #F6CF46 !important;
+}
+
+body .kripta-cont .div2 h3 {
+  color: #F6CF46;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+body .kripta-cont .div2 p {
+  color: #F8F8F8;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0px 0 10px 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+body .kripta-cont .div2 .form-text1 {
+  cursor: pointer;
+  height: 0px;
+  color: var(--pale, #6F6F6F);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body .kripta-cont .div2 .form-text2 {
+  color: #F8F8F8;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+body .kripta-cont .div2 input {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 310px;
+  background: transparent;
+  height: 40px;
+  padding: 10px 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 1px solid var(--white, #FFF);
+}
+
+body .kripta-cont .div2 input:hover {
+  border: 1px solid var(--white, #F6CF46);
+}
+
+body .kripta-cont .div3 {
+  width: auto;
+  height: 202px;
+  background-color: rgba(255, 255, 255, 0.04);
+  flex-shrink: 0;
+  margin-top: 40px;
+  /* margin-right: 9.8em; */
+  border-radius: 24px;
+  max-width: 388px;
+}
+
+body .kripta-cont1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+body .kripta-cont1 .div33 h3 {
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  /* padding: 20px; */
+  /* margin-left: 6em; */
+  padding: 20px 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+body .kripta-cont1 .div33 .div-input {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+body .kripta-cont1 .div33 .div-input1 {
+  position: relative;
+}
+
+body .kripta-cont1 .div33 .div-input1 svg {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+body .kripta-cont1 .div33 .form-control {
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 310px;
+  height: 40px;
+  padding: 10px 16px 10px 40px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 1px solid var(--white, #FFF);
+  background: transparent;
+}
+
+body .kripta-cont1 .div33 .form-control::-moz-placeholder {
+  color: var(--pale, #6F6F6F);
+}
+
+body .kripta-cont1 .div33 .form-control::placeholder {
+  color: var(--pale, #6F6F6F);
+}
+
+body .kripta-cont1 .div33 .form-control:hover {
+  border: 1px solid var(--white, #F6CF46);
+}
+
+body .kripta-cont1 .div33 .form-check-input {
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+body .kripta-cont1 .div33 .form-check-input:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid yellow;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+body .kripta-cont1 .div33 .fio {
+  margin-bottom: 20px;
+}
+
+body .kripta-cont1 .div33 .form-check {
+  margin-bottom: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+body .kripta-cont1 .div33 .form-check-input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+body .kripta-cont1 .div33 .form-check-label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white, #FFF);
+}
+
+body .kripta-cont1 .div33 .form-check-label a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white, #FFF);
+}
+
+body .kripta-cont1 .div33 .btn {
+  display: flex;
+  flex-direction: column;
+  width: 632px;
+  height: 40px;
+  padding: 9px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 60px;
+  background: #F6CF46;
+  color: #212121;
+  transition: color 0.3s, background-color 0.3s;
+  margin-top: 20px;
+}
+
+body .kripta-cont1 .div33 .btn:hover {
+  color: #F6CF46;
+  background-color: white;
+}
+
+body .kripta-cont1 .div44 p {
+  padding-top: 60px;
+  padding-left: 20px;
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 417px;
+}
+
+body .kripta-cont2 {
+  display: none;
+}
+
+body .kripta-cont2 .div-input11 {
+  margin-bottom: 20px;
+}
+
+body .kripta-cont3 {
+  display: none;
+}
+
+body .kripta-cont3 .div-input11 {
+  margin-bottom: 20px;
+}
+
+body .kripta-cont4 {
+  display: none;
+}
+
+body .kripta-cont4 .div-input11 {
+  margin-bottom: 20px;
+}
+
+body .select1 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+
+@media (max-width:1300px) {
+  .kripta-cont {
+    display: grid !important;
+    gap: 30px;
+  }
+
+  .divv {
+    display: grid !important;
+  }
+
+  .divv .div-input1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .divv .form-control {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-input {
+    display: grid !important;
+  }
+
+
+}
+
+@media (max-width:425px) {
+
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  .content .btn {
+    width: 100% !important;
+  }
+
+
+  .div1 {
+    width: 100% !important;
+  }
+
+  .btns {
+    padding: 0px !important;
+    gap: 5px !important;
+  }
+
+
+   .btn-slect {
+    width: 100% !important;
+  }
+}
+
